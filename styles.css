@@ -3,16 +3,17 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
-}
-
-.hero-image {
-  width: 100vw;
-  height: 100vh;
   background-image: url("images/david-marcu-78A265wPiO4-unsplash.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 7%;
+}
+
+.hero-image {
+  width: 100vw;
+  height: 100vh;
+  
   display: flex;
   justify-content: center;
   align-items: center;
