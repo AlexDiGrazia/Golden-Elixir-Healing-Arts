@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -48,6 +52,10 @@ nav ul li {
 nav ul li:hover {
   font-size: 28px;
   text-shadow: 0 1px 1px rgb(45, 45, 45);
+}
+
+nav ul li a {
+  color: black;
 }
 
 .hero-image {
@@ -124,9 +132,9 @@ span {
 
 .one h2 {
   text-align: center;
-  font-family: cursive;
   margin: 0px, 0px, 20px, 0px;
   font-size: 40px;
+  font-weight: 200;
 }
 
 section.one .container {
@@ -134,15 +142,59 @@ section.one .container {
   position: relative;
 }
 
+.phone_number_centering_container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phoneNumber_and_CTAwrapper {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  position: absolute;
+  top: 13%;
+}
+
 .CTA_button {
   text-align: center;
-  position: absolute;
-  left: 50%;
   bottom: 0%;
   border: none;
   background-color: #955f27;
   color: white;
   font-size: 1.3rem;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.phone_number {
+  background-color: rgb(255, 255, 233);
+  width: fit-content;
+  height: fit-content;
+  padding: 100px 150px;
+  font-size: 22px;
+  border: 2px solid #955f27;
+}
+
+.phoneNumberClickableArea {
+  width: fit-content;
+  height: fit-content;
+  padding: 50px;
+}
+
+.phone_number a:hover {
+  cursor: pointer;
+  color: blue;
 }
 
 .left,
@@ -172,7 +224,10 @@ section.one .container {
   padding-top: 60px;
   flex-wrap: wrap;
   gap: 30px;
+  /* width: 100%; */
 }
+
+/* 100% width needed here, but then it makes the spacing of other elements to small. Something is off here */
 
 .text-container {
   text-align: center;
@@ -283,4 +338,44 @@ section.one .container {
 
 section.three {
   color: transparent;
+}
+
+#contact {
+  width: 100%;
+  height: 400px;
+  background: #2e5252;
+  display: flex;
+  justify-content: center;
+}
+
+#contact .max-width-container .contact-section-flex-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#contact .contact-section-flex-container .left {
+  /* border: 1px solid aqua; */
+  width: 100%;
+  color: white;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#contact .contact-section-flex-container .left h2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#contact .contact-section-flex-container .left p a {
+  color: white;
+}
+
+.contact-section-flex-container .right {
+  /* border: 1px solid coral; */
+  width: 100%;
 }
