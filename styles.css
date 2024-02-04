@@ -24,12 +24,17 @@ a {
   text-decoration: none;
 }
 
+div.nav_background {
+  width: 100%;
+  background: #2e5252;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
 nav {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 30px;
   margin-right: 200px;
-  position: absolute;
   z-index: 1;
   /* border-bottom: 1px solid rgb(0, 0, 0, 0.7); */
 }
@@ -49,13 +54,16 @@ nav ul li {
   transition: 0.25s;
 }
 
-nav ul li:hover {
-  font-size: 28px;
+nav ul li:hover,
+nav ul li a:hover {
+  /* font-size: 28px; */
   text-shadow: 0 1px 1px rgb(45, 45, 45);
+  cursor: pointer;
+  color: #955f27;
 }
 
 nav ul li a {
-  color: black;
+  color: white;
 }
 
 .hero-image {
