@@ -1,0 +1,41 @@
+form.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.top_line_of_form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_form_text_input {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.contact_form_text_input::placeholder {
+  color: white;
+}
+
+.contact_form textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.submit_form_btn {
+  width: fit-content;
+  border: none;
+  background-color: transparent;
+  color: white;
+  align-self: flex-end;
+  transition: 0.25s;
+  font-size: 1rem;
+}
+
+.submit_form_btn:hover {
+  color: #9e7040;
+}

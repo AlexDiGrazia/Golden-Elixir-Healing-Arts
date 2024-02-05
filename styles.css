@@ -363,6 +363,13 @@ section.three {
   display: flex;
 }
 
+#contact .contact-section-flex-container .left,
+#contact .contact-section-flex-container .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #contact .contact-section-flex-container .left {
   /* border: 1px solid aqua; */
   width: 100%;
@@ -378,6 +385,7 @@ section.three {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  margin-top: 0;
 }
 
 #contact .contact-section-flex-container .left p a {
