@@ -15,10 +15,20 @@ form.contact_form {
   background-color: transparent;
   width: 100%;
   font-size: 1rem;
+  color: white;
 }
 
 .contact_form_text_input::placeholder {
   color: white;
+}
+
+.contact_form_text_input:focus,
+.contact_form textarea:focus {
+  outline: none;
+}
+
+.email_input {
+  margin-left: 45px;
 }
 
 .contact_form textarea {

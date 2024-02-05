@@ -386,6 +386,12 @@ section.three {
   font-weight: 200;
   font-style: normal;
   margin-top: 0;
+  font-size: 32px;
+}
+
+#contact .contact-section-flex-container .left p {
+  margin: 10px 0px;
+  font-size: 18px;
 }
 
 #contact .contact-section-flex-container .left p a {
