@@ -10,10 +10,10 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("images/david-marcu-78A265wPiO4-unsplash.jpg");
+  background-image: url("images/new\ mobile\ bk\ img.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   /* background-position: 100% 7%; */
   font-family: Optima, sans-serif;
   overscroll-behavior: none;
