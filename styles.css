@@ -133,13 +133,13 @@ span {
   filter: blur(4px);
 }
 
-.one,
-.two {
+.one {
   background: beige;
   padding: 30px;
 }
 
-.one h2 {
+.one h2,
+#services h2 {
   text-align: center;
   margin: 0px, 0px, 20px, 0px;
   font-size: 40px;
@@ -226,11 +226,22 @@ section.one .container {
   padding: 50px;
 }
 
+#services {
+  background-color: rgb(255, 255, 233);
+  padding-top: 60px;
+  /* background: beige; */
+  padding: 30px;
+}
+
+#services h2 {
+  text-align: center;
+  margin-bottom: 68px;
+}
+
 .two {
   display: flex;
   justify-content: space-evenly;
-  background-color: rgb(255, 255, 233);
-  padding-top: 60px;
+
   flex-wrap: wrap;
   gap: 30px;
   /* width: 100%; */
@@ -248,13 +259,19 @@ section.one .container {
   color: white;
   padding: 0.8rem;
   font-size: 1rem;
-  margin-top: 4rem;
+  margin-top: 3.5rem;
   opacity: 0;
   transition: 0.5s;
   transform: translateY(230%);
   border-radius: 2px;
   font-weight: 500;
   font-size: 1.05rem;
+}
+
+.pic4 .text-container button,
+.pic2 .text-container button,
+.pic3 .text-container button {
+  margin-top: 1.875rem;
 }
 
 .text-container p {
@@ -276,9 +293,6 @@ section.one .container {
   max-width: 290px;
 }
 
-.pic1:hover {
-}
-
 .pic2 {
   background-image: url("images/073_Qi2-copy.jpeg");
   background-size: cover;
@@ -288,6 +302,13 @@ section.one .container {
 
 .pic3 {
   background-image: url("images/le-minh-phuong-niH7Z81S44g-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pic4 {
+  background-image: url("images/massage.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
