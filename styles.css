@@ -41,12 +41,12 @@ section,
   bottom: 0;
   right: 0;
   left: 0;
-  background: blue;
   z-index: -1;
   background-image: url("images/david-marcu-78A265wPiO4-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 63%;
+  background-position-x: 61%;
 }
 
 div.nav_background {
