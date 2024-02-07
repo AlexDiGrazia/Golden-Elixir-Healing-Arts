@@ -83,7 +83,7 @@ nav ul li a {
 }
 
 #welcome .welcome-section-max-width {
-  max-width: 85%;
+  max-width: 76%;
 }
 
 .hero-image h2 {
@@ -159,7 +159,7 @@ span {
 }
 
 section.one .container {
-  /* padding: 0 60px; */
+  padding: 0 60px;
   position: relative;
 }
 
@@ -203,7 +203,6 @@ section.one .container {
   background-color: rgb(255, 255, 233);
   width: fit-content;
   height: fit-content;
-  padding: 100px 150px;
   font-size: 22px;
   border: 2px solid #955f27;
 }
@@ -231,12 +230,14 @@ section.one .container {
   background-image: url("images/3.jpg");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position-x: center;
   margin-right: 30px;
 }
 
 .one .container p {
-  font-size: 20px;
+  font-size: calc(15px + 0.390625vw);
   padding: 50px;
+  line-height: 123%;
 }
 
 #services {
