@@ -29,9 +29,23 @@
   }
 }
 
-@media screen and (max-width: 963px) {
+@media screen and (max-width: 964px) {
   .phoneNumber_and_CTAwrapper {
     bottom: 2%;
+  }
+
+  #contact .contact-section-flex-container .left {
+    margin-bottom: 90px;
+  }
+
+  #contact .contact-section-flex-container .left,
+  #contact .contact-section-flex-container .right {
+    min-width: 60%;
+    max-width: 75%;
+  }
+
+  #contact .contact-max-width {
+    max-width: 100%;
   }
 }
 

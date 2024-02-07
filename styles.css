@@ -386,16 +386,22 @@ section.three {
 
 #contact {
   width: 100%;
-  height: 400px;
+  padding: 100px 0px 50px 0px;
   background: #2e5252;
   display: flex;
   justify-content: center;
+}
+
+#contact .contact-max-width {
+  max-width: 85%;
 }
 
 #contact .max-width-container .contact-section-flex-container {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #contact .contact-section-flex-container .left,
@@ -403,6 +409,7 @@ section.three {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 410px;
 }
 
 #contact .contact-section-flex-container .left {
@@ -426,7 +433,7 @@ section.three {
 
 #contact .contact-section-flex-container .left p {
   margin: 10px 0px;
-  font-size: 18px;
+  font-size: calc(15px + 0.390625vw);
 }
 
 #contact .contact-section-flex-container .left p a {

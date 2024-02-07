@@ -14,7 +14,7 @@ form.contact_form {
   border-bottom: 1px solid white;
   background-color: transparent;
   width: 100%;
-  font-size: 1rem;
+  font-size: calc(15px + 0.390625vw);
   color: white;
 }
 
