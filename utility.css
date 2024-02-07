@@ -1,3 +1,11 @@
 .hidden {
   visibility: hidden;
 }
+
+.display-none {
+  display: none;
+}
+
+i.display-none {
+  display: none;
+}

@@ -7,18 +7,24 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="utility.css" />
     <link rel="stylesheet" href="contact_form.css" />
+    <link rel="stylesheet" href="media_queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/710d95f475.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Document</title>
   </head>
   <body>
     <section class="hero">
       <div class="nav_background">
-        <nav class="absolute">
+        <nav class="absolute nav">
           <ul>
             <li>Home</li>
             <li>
@@ -33,6 +39,7 @@
             </li>
           </ul>
         </nav>
+        <i class="fa-solid fa-bars display-none"></i>
       </div>
       <div class="hero-image">
         <div class="max-width-container">
@@ -46,49 +53,51 @@
       </div>
     </section>
 
-    <section id="welcome" class="one">
-      <h2>A place where healing happens. . .</h2>
-      <div class="container">
-        <div class="image-wrapper"></div>
+    <!-- <section id="welcome" class="one">
+      <div class="max-width-container welcome-section-max-width">
+        <h2>A place where healing happens. . .</h2>
+        <div class="container">
+          <div class="image-wrapper"></div>
 
-        <p>
-          Hi! My name is Alex and I help people get out of pain. <br /><br />
-          My speciality is in gentle Osteopathic techniques that restore balance
-          to the body by facilitiating release in a connective tissue called
-          Fascia that surrounds every muscle, bone, and organ in the human
-          structure. <br /><br />
+          <p>
+            Hi! My name is Alex and I help people get out of pain. <br /><br />
+            My speciality is in gentle Osteopathic techniques that restore
+            balance to the body by facilitiating release in a connective tissue
+            called Fascia that surrounds every muscle, bone, and organ in the
+            human structure. <br /><br />
 
-          The primary focus of my model is not only providing treatment, but
-          sharing the knowledge, skills, and resources necessary for clients to
-          take the healing experience home with them - with the ultimate goal of
-          client self-sufficiency and Me becoming an obsolete part of their
-          process. <br /><br />
+            The primary focus of my model is not only providing treatment, but
+            sharing the knowledge, skills, and resources necessary for clients
+            to take the healing experience home with them - with the ultimate
+            goal of client self-sufficiency and Me becoming an obsolete part of
+            their process. <br /><br />
 
-          Treatment begins with a thorough constultation where we discuss goals,
-          strategy, and potential self-healing options to go over at the end of
-          session.<br /><br />
+            Treatment begins with a thorough constultation where we discuss
+            goals, strategy, and potential self-healing options to go over at
+            the end of session.<br /><br />
 
-          The entirety of Golden Elixir Healing is an extension of my own
-          personal practice. The skills, mindset, and resources are what I use
-          personally to stay limber, pain-free, and poised to meet the
-          challenges of life.<br /><br />
-        </p>
-        <div class="phone_number_centering_container">
-          <div class="phoneNumber_and_CTAwrapper">
-            <div class="phone_number hidden">
-              <div class="phoneNumberClickableArea">
-                <a onclick="window.location.href='tel:8058353498'">
-                  (805) 835 - 3498
-                </a>
+            The entirety of Golden Elixir Healing is an extension of my own
+            personal practice. The skills, mindset, and resources are what I use
+            personally to stay limber, pain-free, and poised to meet the
+            challenges of life.<br /><br />
+          </p>
+          <div class="phone_number_centering_container">
+            <div class="phoneNumber_and_CTAwrapper">
+              <div class="phone_number hidden">
+                <div class="phoneNumberClickableArea">
+                  <a onclick="window.location.href='tel:8058353498'">
+                    (805) 835 - 3498
+                  </a>
+                </div>
               </div>
+              <button
+                class="CTA_button"
+                onclick="toggleVisibility('.phone_number', 'hidden')"
+                onblur="phoneNumberOnBlur()"
+              >
+                Book Now
+              </button>
             </div>
-            <button
-              class="CTA_button"
-              onclick="toggleVisibility('.phone_number', 'hidden')"
-              onblur="phoneNumberOnBlur()"
-            >
-              Book Now
-            </button>
           </div>
         </div>
       </div>
@@ -152,7 +161,7 @@
                   Instruction in classical<br />
                   seated meditation practices<br />
                   to stabilize the heart, <br />
-                  breathe, and mind
+                  breath, and mind
                 </p>
                 <button>Learn More</button>
               </div>
@@ -256,7 +265,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <audio class="music" controls>
       <source src="Gold.mp3" />
     </audio>
@@ -274,5 +283,6 @@
     </script>
     <script src="index.js" type="text/javascript"></script>
     <script src="contact_form.js" type="text/javascript"></script>
+    <script src="nav.js" type="text/javascript"></script>
   </body>
 </html>
