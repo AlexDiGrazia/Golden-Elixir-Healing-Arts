@@ -76,7 +76,7 @@ nav ul li a {
 
 .hero-image {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
 }
