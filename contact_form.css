@@ -12,10 +12,13 @@ form.contact_form {
 .contact_form_text_input {
   border: none;
   border-bottom: 1px solid white;
+  background-color: #2e5252;
   background-color: transparent;
   width: 100%;
   font-size: calc(15px + 0.390625vw);
   color: white;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 .contact_form_text_input::placeholder {
