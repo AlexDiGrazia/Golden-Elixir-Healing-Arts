@@ -10,7 +10,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("images/david-marcu-78A265wPiO4-unsplash.jpg");
+  background-image: url("images/3rd\ edit.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   /* background-size: cover; */
@@ -22,7 +22,7 @@ body {
   background-color: #78799a38;
   background-blend-mode: hard-light;
   background-position-x: 63%;
-  background-position-y: 63%;
+  /* background-position-y: 63%; */
 }
 
 a {
