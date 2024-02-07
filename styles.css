@@ -2,12 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
-  height: 100svh;
   background-image: url("images/david-marcu-78A265wPiO4-unsplash.jpg");
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
