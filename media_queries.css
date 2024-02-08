@@ -74,6 +74,17 @@
   .background-image-fixed {
     position: absolute;
   }
+
+  .overlay,
+  .overlay > *,
+  .overlay button {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .overlay-blur {
+    backdrop-filter: blur(1px);
+  }
 }
 
 @media screen and (max-width: 724px) {
