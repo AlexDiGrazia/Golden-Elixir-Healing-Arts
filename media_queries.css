@@ -75,6 +75,14 @@
     position: absolute;
   }
 
+  .nav_background {
+    position: absolute;
+  }
+
+  /* .hero-image .banner {
+    top: 22.5%;
+  } */
+
   .overlay,
   .overlay > *,
   .overlay button {

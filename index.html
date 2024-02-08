@@ -23,223 +23,227 @@
   </head>
   <body>
     <div class="background-image-fixed"></div>
-    <section class="hero">
-      <div class="nav_background">
-        <nav class="absolute nav">
-          <ul>
-            <li>Home</li>
-            <li>
-              <a href="#welcome">About</a>
-            </li>
-            <li>
-              <a href="#services"> Services </a>
-            </li>
-            <li>Blog</li>
-            <li>
-              <a href="#contact"> Contact </a>
-            </li>
-          </ul>
-        </nav>
-        <i class="fa-solid fa-bars display-none"></i>
-      </div>
-      <div class="hero-image">
-        <div class="max-width-container">
-          <div class="banner-container">
-            <div class="banner">
-              <h1>Golden Elixir Healing Arts</h1>
-              <h2>Release, Relax, Heal</h2>
+    <div class="mobile-menu display-none"></div>
+    <div class="main">
+      <section class="hero">
+        <div class="nav_background">
+          <nav class="absolute nav">
+            <ul>
+              <li>Home</li>
+              <li>
+                <a href="#welcome">About</a>
+              </li>
+              <li>
+                <a href="#services"> Services </a>
+              </li>
+              <li>Blog</li>
+              <li>
+                <a href="#contact"> Contact </a>
+              </li>
+            </ul>
+          </nav>
+          <i class="fa-solid fa-bars display-none"></i>
+        </div>
+        <div class="hero-image">
+          <div class="max-width-container">
+            <div class="banner-container">
+              <div class="banner">
+                <h1>Golden Elixir Healing Arts</h1>
+                <h2>Release, Relax, Heal</h2>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="welcome" class="one">
-      <div class="max-width-container welcome-section-max-width">
-        <h2>A place where healing happens. . .</h2>
-        <div class="container about-me">
-          <div class="image-wrapper"></div>
+      <section id="welcome" class="one">
+        <div class="max-width-container welcome-section-max-width">
+          <h2>A place where healing happens. . .</h2>
+          <div class="container about-me">
+            <div class="image-wrapper"></div>
 
-          <p>
-            Hi! My name is Alex and I help people get out of pain. <br /><br />
-            My speciality is in gentle Osteopathic techniques that restore
-            balance to the body by facilitiating release in a connective tissue
-            called Fascia that surrounds every muscle, bone, and organ in the
-            human structure. <br /><br />
+            <p>
+              Hi! My name is Alex and I help people get out of pain.
+              <br /><br />
+              My speciality is in gentle Osteopathic techniques that restore
+              balance to the body by facilitiating release in a connective
+              tissue called Fascia that surrounds every muscle, bone, and organ
+              in the human structure. <br /><br />
 
-            The primary focus of my model is not only providing treatment, but
-            sharing the knowledge, skills, and resources necessary for clients
-            to take the healing experience home with them - with the ultimate
-            goal of client self-sufficiency and Me becoming an obsolete part of
-            their process. <br /><br />
+              The primary focus of my model is not only providing treatment, but
+              sharing the knowledge, skills, and resources necessary for clients
+              to take the healing experience home with them - with the ultimate
+              goal of client self-sufficiency and Me becoming an obsolete part
+              of their process. <br /><br />
 
-            Treatment begins with a thorough constultation where we discuss
-            goals, strategy, and potential self-healing options to go over at
-            the end of session.<br /><br />
+              Treatment begins with a thorough constultation where we discuss
+              goals, strategy, and potential self-healing options to go over at
+              the end of session.<br /><br />
 
-            The entirety of Golden Elixir Healing is an extension of my own
-            personal practice. The skills, mindset, and resources are what I use
-            personally to stay limber, pain-free, and poised to meet the
-            challenges of life.<br /><br />
-          </p>
-          <div class="phone_number_centering_container">
-            <div class="phoneNumber_and_CTAwrapper">
-              <div class="phone_number hidden">
-                <div class="phoneNumberClickableArea">
-                  <a onclick="window.location.href='tel:8058353498'">
-                    (805) 835 - 3498
-                  </a>
+              The entirety of Golden Elixir Healing is an extension of my own
+              personal practice. The skills, mindset, and resources are what I
+              use personally to stay limber, pain-free, and poised to meet the
+              challenges of life.<br /><br />
+            </p>
+            <div class="phone_number_centering_container">
+              <div class="phoneNumber_and_CTAwrapper">
+                <div class="phone_number hidden">
+                  <div class="phoneNumberClickableArea">
+                    <a onclick="window.location.href='tel:8058353498'">
+                      (805) 835 - 3498
+                    </a>
+                  </div>
+                </div>
+                <button
+                  class="CTA_button"
+                  onclick="toggleVisibility('.phone_number', 'hidden')"
+                  onblur="phoneNumberOnBlur()"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <h2>Services</h2>
+        <div class="two">
+          <a>
+            <div class="services pic4">
+              <div class="overlay overlay-blur">
+                <div class="text-container">
+                  <h2 class="card-title">Massage</h2>
+                  <p>
+                    The perfect blend<br />
+                    of therapeutic Deep Tissue <br />
+                    and relaxing Swedish <br />
+                    massage
+                  </p>
+                  <button>Learn More</button>
                 </div>
               </div>
-              <button
-                class="CTA_button"
-                onclick="toggleVisibility('.phone_number', 'hidden')"
-                onblur="phoneNumberOnBlur()"
-              >
-                Book Now
-              </button>
             </div>
-          </div>
+          </a>
+          <a>
+            <div class="services pic2">
+              <div class="overlay overlay-blur">
+                <div class="text-container">
+                  <h2 class="card-title">Qigong</h2>
+                  <p>
+                    Instruction in classic<br />
+                    Medical Qigong Dao Yin <br />
+                    to synchronize breath, mind <br />
+                    and posture
+                  </p>
+                  <button>Learn More</button>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a>
+            <div class="services pic1">
+              <div class="overlay overlay-blur">
+                <div class="text-container">
+                  <h2 class="card-title">Stretching</h2>
+                  <p>
+                    Custom tailored stretching<br />
+                    to find mobility and freedom<br />
+                    in <strong>your</strong> body
+                  </p>
+                  <button>Learn More</button>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a>
+            <div class="services pic3">
+              <div class="overlay overlay-blur">
+                <div class="text-container">
+                  <h2 class="card-title">Meditation</h2>
+                  <p>
+                    Instruction in classical<br />
+                    seated meditation practices<br />
+                    to stabilize the heart, <br />
+                    breath, and mind
+                  </p>
+                  <button>Learn More</button>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
-      </div>
-    </section>
-    <section id="services">
-      <h2>Services</h2>
-      <div class="two">
-        <a>
-          <div class="services pic4">
-            <div class="overlay overlay-blur">
-              <div class="text-container">
-                <h2 class="card-title">Massage</h2>
+      </section>
+      <section id="contact">
+        <div class="max-width-container contact-max-width">
+          <div class="contact-section-flex-container">
+            <div class="left">
+              <div class="contact_info">
+                <h2>Contact Me</h2>
+                <p>Atascadero, CA. 93422</p>
                 <p>
-                  The perfect blend<br />
-                  of therapeutic Deep Tissue <br />
-                  and relaxing Swedish <br />
-                  massage
+                  Mail:
+                  <a href="mailto:alexndigrazia@hotmail.com">
+                    alexndigrazia@hotmail.com</a
+                  >
                 </p>
-                <button>Learn More</button>
+                <p>Tel: (805) 835 - 3498</p>
+                <p>CAMTC #82382</p>
               </div>
             </div>
-          </div>
-        </a>
-        <a>
-          <div class="services pic2">
-            <div class="overlay overlay-blur">
-              <div class="text-container">
-                <h2 class="card-title">Qigong</h2>
-                <p>
-                  Instruction in classic<br />
-                  Medical Qigong Dao Yin <br />
-                  to synchronize breath, mind <br />
-                  and posture
-                </p>
-                <button>Learn More</button>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a>
-          <div class="services pic1">
-            <div class="overlay overlay-blur">
-              <div class="text-container">
-                <h2 class="card-title">Stretching</h2>
-                <p>
-                  Custom tailored stretching<br />
-                  to find mobility and freedom<br />
-                  in <strong>your</strong> body
-                </p>
-                <button>Learn More</button>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a>
-          <div class="services pic3">
-            <div class="overlay overlay-blur">
-              <div class="text-container">
-                <h2 class="card-title">Meditation</h2>
-                <p>
-                  Instruction in classical<br />
-                  seated meditation practices<br />
-                  to stabilize the heart, <br />
-                  breath, and mind
-                </p>
-                <button>Learn More</button>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-    </section>
-    <section id="contact">
-      <div class="max-width-container contact-max-width">
-        <div class="contact-section-flex-container">
-          <div class="left">
-            <div class="contact_info">
-              <h2>Contact Me</h2>
-              <p>Atascadero, CA. 93422</p>
-              <p>
-                Mail:
-                <a href="mailto:alexndigrazia@hotmail.com">
-                  alexndigrazia@hotmail.com</a
-                >
-              </p>
-              <p>Tel: (805) 835 - 3498</p>
-              <p>CAMTC #82382</p>
-            </div>
-          </div>
-          <div class="right">
-            <form
-              class="contact_form"
-              action="https://api.web3forms.com/submit"
-              method="POST"
-              onsubmit="handleSubmit()"
-            >
-              <div class="top_line_of_form">
+            <div class="right">
+              <form
+                class="contact_form"
+                action="https://api.web3forms.com/submit"
+                method="POST"
+                onsubmit="handleSubmit()"
+              >
+                <div class="top_line_of_form">
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="272520d7-a084-4004-9511-271fbe635d77"
+                  />
+                  <!-- <input
+                    type="checkbox"
+                    name="botcheck"
+                    id=""
+                    style="display: none"
+                  /> -->
+                  <label for="name"></label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Name"
+                    class="contact_form_text_input"
+                  />
+                  <label for="email"></label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="text"
+                    placeholder="Email"
+                    class="contact_form_text_input email_input"
+                  />
+                </div>
+                <label for="phone"></label>
                 <input
-                  type="hidden"
-                  name="access_key"
-                  value="272520d7-a084-4004-9511-271fbe635d77"
-                />
-                <!-- <input
-                  type="checkbox"
-                  name="botcheck"
-                  id=""
-                  style="display: none"
-                /> -->
-                <label for="name"></label>
-                <input
-                  id="name"
-                  name="name"
+                  id="phone"
+                  name="phone"
                   type="text"
-                  placeholder="Name"
+                  placeholder="Phone"
                   class="contact_form_text_input"
                 />
-                <label for="email"></label>
-                <input
-                  id="email"
-                  name="email"
-                  type="text"
-                  placeholder="Email"
-                  class="contact_form_text_input email_input"
-                />
-              </div>
-              <label for="phone"></label>
-              <input
-                id="phone"
-                name="phone"
-                type="text"
-                placeholder="Phone"
-                class="contact_form_text_input"
-              />
-              <label for="message"></label>
-              <textarea name="message" id="message"></textarea>
-              <input type="submit" value="Submit" class="submit_form_btn" />
-            </form>
+                <label for="message"></label>
+                <textarea name="message" id="message"></textarea>
+                <input type="submit" value="Submit" class="submit_form_btn" />
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <audio class="music" controls>
       <source src="Gold.mp3" />
     </audio>
