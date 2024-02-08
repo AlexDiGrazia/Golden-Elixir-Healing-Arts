@@ -366,7 +366,7 @@ section.one .container {
   transition: opacity 0.25s;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .overlay-blur {
