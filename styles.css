@@ -63,7 +63,7 @@ nav {
   z-index: 1;
 }
 
-.mobile-menu {
+.mobile-menu-wrapper {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -74,6 +74,35 @@ nav {
   justify-content: center;
   align-items: center;
   z-index: 2;
+}
+
+.menu_list_flex_container ul {
+  padding: 0;
+}
+
+.menu_list_flex_container ul li {
+  list-style: none;
+  margin: 20px 0;
+  font-size: 32px;
+}
+
+.menu_list_flex_container ul li a {
+  color: black;
+}
+
+i.fa-xmark {
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+.exit_button_flex_wrapper {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 audio {

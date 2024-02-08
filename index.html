@@ -23,8 +23,20 @@
   </head>
   <body>
     <div class="background-image-fixed"></div>
-    <div class="mobile-menu display-none"></div>
-    <div class="main">
+    <div class="mobile-menu-wrapper display-none">
+      <div class="exit_button_flex_wrapper">
+        <i class="fa-solid fa-xmark" onclick="toggleMobileMenu()"></i>
+      </div>
+      <div class="menu_list_flex_container">
+        <ul>
+          <li><a href="#home" onclick="toggleMobileMenu()">Home</a></li>
+          <li><a href="#welcome" onclick="toggleMobileMenu()">About</a></li>
+          <li><a href="#services" onclick="toggleMobileMenu()">Services</a></li>
+          <li><a href="#contact" onclick="toggleMobileMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="home" class="main">
       <section class="hero">
         <div class="nav_background">
           <nav class="absolute nav">
@@ -42,7 +54,10 @@
               </li>
             </ul>
           </nav>
-          <i class="fa-solid fa-bars display-none"></i>
+          <i
+            class="fa-solid fa-bars display-none"
+            onclick="toggleMobileMenu()"
+          ></i>
         </div>
         <div class="hero-image">
           <div class="max-width-container">

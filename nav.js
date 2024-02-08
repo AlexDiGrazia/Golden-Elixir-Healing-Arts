@@ -15,3 +15,16 @@ const toggleNavVisibility = (event) => {
 };
 
 ["DOMContentLoaded", "resize"].forEach((item) => toggleNavVisibility(item));
+
+const toggleMobileMenu = () => {
+  const mainContainer = document.querySelector(".main");
+  const mobileMenu = document.querySelector(".mobile-menu-wrapper");
+
+  mainContainer.classList.value.includes("display-none")
+    ? mainContainer.classList.remove("display-none")
+    : mainContainer.classList.add("display-none");
+
+  mobileMenu.classList.value.includes("display-none")
+    ? mobileMenu.classList.remove("display-none")
+    : mobileMenu.classList.add("display-none");
+};
