@@ -79,9 +79,9 @@
     position: absolute;
   }
 
-  /* .hero-image .banner {
-    top: 22.5%;
-  } */
+  .hero-image .banner {
+    margin-top: 63px;
+  }
 
   .overlay,
   .overlay > *,
