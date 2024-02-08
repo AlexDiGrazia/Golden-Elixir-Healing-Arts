@@ -22,6 +22,15 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="under-construction-message display-none">
+      <p>
+        Under construction. <br />
+        Please check back soon!
+      </p>
+      <button class="btn-defaults" onclick="returnToMain()">
+        <a class="return_to_main_button" href="#services">Back</a>
+      </button>
+    </div>
     <div class="background-image-fixed"></div>
     <div class="mobile-menu-wrapper display-none">
       <div class="exit_button_flex_wrapper">
@@ -36,6 +45,7 @@
         </ul>
       </div>
     </div>
+
     <div id="home" class="main">
       <section class="hero">
         <div class="nav_background">
@@ -48,7 +58,9 @@
               <li>
                 <a href="#services"> Services </a>
               </li>
-              <li>Blog</li>
+              <li class="blog" onclick="temporary_underConstruction(event)">
+                Blog
+              </li>
               <li>
                 <a href="#contact"> Contact </a>
               </li>
@@ -110,7 +122,7 @@
                   </div>
                 </div>
                 <button
-                  class="CTA_button"
+                  class="CTA_button btn-defaults"
                   onclick="toggleVisibility('.phone_number', 'hidden')"
                   onblur="phoneNumberOnBlur()"
                 >
@@ -135,7 +147,12 @@
                     and relaxing Swedish <br />
                     massage
                   </p>
-                  <button>Learn More</button>
+                  <button
+                    class="learn_more"
+                    onclick="temporary_underConstruction(event)"
+                  >
+                    Learn More
+                  </button>
                 </div>
               </div>
             </div>
@@ -151,7 +168,12 @@
                     to synchronize breath, mind <br />
                     and posture
                   </p>
-                  <button>Learn More</button>
+                  <button
+                    class="learn_more"
+                    onclick="temporary_underConstruction(event)"
+                  >
+                    Learn More
+                  </button>
                 </div>
               </div>
             </div>
@@ -166,7 +188,12 @@
                     to find mobility and freedom<br />
                     in <strong>your</strong> body
                   </p>
-                  <button>Learn More</button>
+                  <button
+                    class="learn_more"
+                    onclick="temporary_underConstruction(event)"
+                  >
+                    Learn More
+                  </button>
                 </div>
               </div>
             </div>
@@ -182,7 +209,12 @@
                     to stabilize the heart, <br />
                     breath, and mind
                   </p>
-                  <button>Learn More</button>
+                  <button
+                    class="learn_more"
+                    onclick="temporary_underConstruction(event)"
+                  >
+                    Learn More
+                  </button>
                 </div>
               </div>
             </div>

@@ -28,3 +28,19 @@ const toggleMobileMenu = () => {
     ? mobileMenu.classList.remove("display-none")
     : mobileMenu.classList.add("display-none");
 };
+
+const removeMobileNavMenuIfScreenExpandedBeyondWidth = () => {
+  const mobileMenu = document.querySelector(".mobile-menu-wrapper");
+  const mainContainer = document.querySelector(".main");
+
+  window.addEventListener("resize", () => {
+    const mobileMenuIsOpen =
+      !mobileMenu.classList.value.includes("display-none");
+    if (window.innerWidth > 640 && mobileMenuIsOpen) {
+      mobileMenu.classList.add("display-none");
+      mainContainer.classList.remove("display-none");
+    }
+  });
+};
+
+removeMobileNavMenuIfScreenExpandedBeyondWidth();
