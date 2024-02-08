@@ -72,14 +72,14 @@ nav {
   bottom: 0;
   right: 0;
   left: 0;
-  background: #c7c7c75c;
+  /* background: #c7c7c75c; */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 2;
   background-size: cover;
   background-image: url(images/parchment1.avif);
-  background-blend-mode: color-dodge;
+  /* background-blend-mode: color-dodge; */
 }
 
 .menu_list_flex_container ul {
