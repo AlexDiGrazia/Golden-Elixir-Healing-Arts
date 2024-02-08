@@ -60,9 +60,7 @@ div.nav_background {
 
 nav {
   display: flex;
-  /* margin-right: 200px; */
   z-index: 1;
-  /* border-bottom: 1px solid rgb(0, 0, 0, 0.7); */
 }
 
 audio {
@@ -99,7 +97,6 @@ nav ul li a {
 
 .hero-image {
   width: 100vw;
-  /* height: 100vh; */
   display: flex;
   justify-content: center;
 }

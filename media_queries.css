@@ -70,6 +70,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .background-image-fixed {
+    position: absolute;
+  }
+}
+
 @media screen and (max-width: 724px) {
   .one h2 {
     font-size: 2rem;
