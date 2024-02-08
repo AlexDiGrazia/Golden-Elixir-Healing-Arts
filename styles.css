@@ -35,7 +35,7 @@ section,
   z-index: 100;
 }
 
-.image-fixed {
+.background-image-fixed {
   position: fixed;
   top: 0;
   bottom: 0;
